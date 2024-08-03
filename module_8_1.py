@@ -1,10 +1,9 @@
 def add_everything_up(a, b):
     try:
         x = a + b
+        return x
     except TypeError:
         return f'{a}{b}'
-    else:
-        return x
 
 
 print(add_everything_up(123.456, 'строка'))
